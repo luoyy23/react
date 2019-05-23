@@ -1,0 +1,31 @@
+.block{ 
+    width: 600px; 
+    min-height: 200px; 
+    margin: 0 auto;
+     border: 1px solid silver; 
+    } 
+.title{ 
+    display: flex;
+     flex-direction: row; 
+     background-color: black; 
+     box-sizing: border-box; 
+     padding: 10px 15px; }
+
+.titleleft{
+     color: white; 
+     flex: 0.5; 
+    } 
+    .titleright {
+         flex: 2; 
+         color: white; 
+         padding: 20px 15px; 
+        } 
+.titleright>input{ 
+    width: 250px; 
+    height: 30px; 
+    border: 1px solid white; 
+    outline: none; 
+    border-radius: 10px; 
+    padding-left: 10px; 
+    font-size: 20px; 
+}
